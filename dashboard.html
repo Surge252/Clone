@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of America | Online Banking | Account Dashboard</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="static/images/boa-logo.png" alt="Bank of America Logo" class="logo">
+            </div>
+        </header>
+
+        <main>
+            <div class="notification-banner">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div class="message">
+                    <div class="title">Important Account Alert</div>
+                    <p>Your checking account has been temporarily frozen. Please see details below or contact customer service for assistance.</p>
+                </div>
+            </div>
+
+            <div class="dashboard-container">
+                <div class="welcome-header">
+                    <div class="welcome-message">
+                        <h2>Welcome, John Smith</h2>
+                        <p>Last login: April 14, 2025 at 10:23 AM ET</p>
+                    </div>
+                    <div class="user-actions">
+                        <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                        <a href="index.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+                    </div>
+                </div>
+
+                <div class="account-nav">
+                    <div class="nav-item active">Accounts</div>
+                    <div class="nav-item">Bill Pay</div>
+                    <div class="nav-item">Transfers</div>
+                    <div class="nav-item">Zelle</div>
+                    <div class="nav-item">Statements</div>
+                </div>
+
+                <div class="accounts-list">
+                    <div class="account-card">
+                        <div class="account-header">
+                            <div>
+                                <div class="account-name">Advantage Plus Checking</div>
+                                <div class="account-number">Account ending in 4567</div>
+                            </div>
+                            <div class="account-status status-frozen">ACCOUNT FROZEN</div>
+                        </div>
+                        <div class="account-balance">$3,241.87</div>
+                        <div class="account-actions">
+                            <a href="#" class="disabled">View Transactions</a>
+                            <a href="#" class="disabled">Transfer Money</a>
+                            <a href="#" class="disabled">Pay Bills</a>
+                            <a href="#" class="disabled">Order Checks</a>
+                        </div>
+
+                        <div class="frozen-info">
+                            <h3>Account Access Temporarily Restricted</h3>
+                            <p>Your account has been temporarily frozen due to suspicious activity detected on April 14, 2025. This is a security measure to protect your funds.</p>
+                            <p>While your account is frozen:</p>
+                            <ul>
+                                <li>No withdrawals can be made</li>
+                                <li>Debit card transactions will be declined</li>
+                                <li>Scheduled payments may not process</li>
+                                <li>Direct deposits will still be received</li>
+                            </ul>
+
+                            <div class="contact-support">
+                                <h4>To resolve this issue:</h4>
+                                <p>Please contact Bank of America Customer Service immediately using one of the methods below:</p>
+                                <div class="contact-info">
+                                    <div class="contact-method">
+                                        <i class="fas fa-phone"></i>
+                                        <span>1-800-432-1000</span>
+                                    </div>
+                                    <div class="contact-method">
+                                        <i class="fas fa-building"></i>
+                                        <span>Visit a local branch</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Accessibility</a>
+            </div>
+            <p class="copyright">Bank of America, N.A. Member FDIC. Equal Housing Lender</p>
+            <p class="copyright">© 2025 Bank of America Corporation. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="static/js/dashboard.js"></script>
+</body>
+</html>
